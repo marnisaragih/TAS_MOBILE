@@ -22,10 +22,7 @@ public class MainActivity extends AppCompatActivity {
         toolbar= (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
     }
-    private fun initToolbar() {
-        val toolbar: Toolbar = findViewById(R.id.toolbar)
-        setSupportActionBar(toolbar)
-        supportActionBar!!.title = "ProjectProgmobA"
+    
     public boolean harusdiisi(EditText editText, EditText txtNama) {
         String text = editText.getText().toString().trim();
         editText.setError(null);
