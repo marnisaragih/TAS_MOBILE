@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".I_CRUD_Dosen">
+    tools:context=".mahasiswa">
 
 
     <TextView
@@ -114,6 +114,27 @@
         android:layout_marginLeft="160dp"
         android:layout_marginTop="364dp"
         android:text="Simpan"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/btnEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="440dp"
+        android:text="Simpan"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="260dp"
+        android:layout_marginTop="440dp"
+        android:text="DELETE"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
