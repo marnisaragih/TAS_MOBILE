@@ -14,7 +14,6 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.slidingpanelayout.widget.SlidingPaneLayout;
 
 public class MainActivity extends AppCompatActivity {
-    public class RespondentActivity extends AppCompatActivity {
         private EditText nameField;
         private EditText NidnField;
         private EditText alamatField;
@@ -79,7 +78,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     ;
-}
+
 //    Toolbar toolbar;
 //
 //
